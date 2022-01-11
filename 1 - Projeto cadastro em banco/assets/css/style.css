@@ -1,0 +1,109 @@
+*{
+    border-style: none;
+    text-decoration: none;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+body{
+  width: 100%;
+  min-height: 100vh;
+  background-color: rgb(243, 243, 243);
+  display: flex;
+  justify-content: center;
+  align-items: center;  
+
+}
+
+
+
+form{
+   
+    margin: 30px;
+    background-color:white; 
+    text-align: center;
+    box-shadow: 2px 2px 2px rgb(59, 59, 59);
+    
+}
+
+.flex-container{
+    width: 90%;
+    padding: 30px;
+    margin: 30px;   
+    background: -webkit-gradient(linear, left top, right top, from(#D38312), to(#A83279));;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    
+    
+}
+
+/*.flex-item{
+    
+    
+   
+
+}
+
+
+#register{
+
+    
+}*/
+
+#register button {
+    width: 60%;
+    color: white;
+    background-color: rgb(104, 218, 171);
+    border-radius: 4px;
+   
+
+}
+
+#register p{
+    text-align: center;
+    padding: 20px;
+    font-size: 20px;
+}
+
+
+
+
+.fields{
+    width: 100%;
+    padding: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+
+  
+}
+
+input{
+    padding-left: 10px;
+}
+
+
+.fields input,option, select{
+    width: 20vw;
+    height: 5vh;
+    border-radius: 5px;
+    border: #CCC 1px solid;
+    
+    
+}
+
+select{
+    border: #CCC 1px solid;
+    height: 6vh;
+}
+
+button{
+    margin: 10px;
+    padding: 10px;
+    box-shadow: 2px 2px 2px rgb(189, 189, 189);
+    
+}
